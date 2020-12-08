@@ -1,0 +1,56 @@
+.page-1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.gundam{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+#section-3 {
+    position: relative;
+}
+
+#section-3 .gundam {
+    display: none;
+}
+
+#section-3 .show {
+    display: block;
+}
+
+.lightleft{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.lightleft img {
+    /* LG: Change img size */
+    width: 200px;
+}
+
+.lightright{
+    position: absolute;
+    z-index: 1;
+}
+
+.page-2 {
+    position: relative;
+    width: auto;
+    bottom: 100px;
+}
+
+.page-3 {
+    width: auto
+}
+
+.page-4{
+    width: auto
+}
